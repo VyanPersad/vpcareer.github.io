@@ -28,13 +28,44 @@ function clgulf() {gulfview.style.visibility = "hidden";}
 function clsimeng() {blogview.style.visibility = "hidden";}
 function clgcad() {cadview.style.visibility = "hidden";}
 
-//const closeBtn = document.getElementById("closemodal");
-//const accaview = document.getElementById("accaview");
-//const acc = document.getElementById("acc");
+window.addEventListener('click', outsideClick);
+function outsideClick(e) {
+  if (e.target == modal) {
+    modal.style.visibility = "hidden";
+  }
+}
+
 window.addEventListener('click', outsideClick);
 function outsideClick(e) {
   if (e.target == accaview) {
     accaview.style.visibility = "hidden";
+  }
+  if (e.target == petview) {
+    petview.style.visibility = "hidden";
+  }
+  if (e.target == mechview) {
+    mechview.style.visibility = "hidden";
+  }
+  if (e.target == padview) {
+    padview.style.visibility = "hidden";
+  }
+  if (e.target == appview) {
+    appview.style.visibility = "hidden";
+  }
+  if (e.target == spslview) {
+    spslview.style.visibility = "hidden";
+  }
+  if (e.target == petroview) {
+    petroview.style.visibility = "hidden";
+  }
+  if (e.target == gulfview) {
+    gulfview.style.visibility = "hidden";
+  }
+  if (e.target == blogview) {
+    blogview.style.visibility = "hidden";
+  }
+  if (e.target == cadview) {
+    cadview.style.visibility = "hidden";
   }
 }
 
