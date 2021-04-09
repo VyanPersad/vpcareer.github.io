@@ -97,14 +97,13 @@ html{
         font-size: 17.5px;
     }
     
-    .refiner{
+    .drilling{
         margin-right: 10px;
     }
     ul{
         color: black;
         list-style: none;
         margin: 5px;
-        margin-bottom: 5px;
     }
     li{
         margin-bottom: 10px;
