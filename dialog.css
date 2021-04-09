@@ -116,6 +116,9 @@ ul{
     font-size: 13.5px;
     text-align: justify;
 }
+li{
+    margin-bottom: 10px;
+}
 
 .text{
     color: black;

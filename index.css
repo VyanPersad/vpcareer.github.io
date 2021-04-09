@@ -434,13 +434,11 @@ justify-items: center;
         background-color: rgb(50, 50, 50);
         height: 250px;
         width: 100%;
-        margin-top: 5px;
-        margin-bottom: 5px;
+        margin: 5px;
         overflow: hidden;
         display: grid;
         grid-template-rows: 1fr;
         grid-template-columns: repeat(3, 1fr);
-        
         align-items: center;
         justify-items: center;
         align-content: center;
