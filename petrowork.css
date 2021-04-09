@@ -100,6 +100,18 @@ html{
     .drilling{
         margin-right: 10px;
     }
+    .imgstrip{
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+    }
+    .img1{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: cover;
+        max-width: 200px;
+    }
     ul{
         color: black;
         list-style: none;
