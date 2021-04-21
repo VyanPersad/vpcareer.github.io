@@ -1,196 +1,402 @@
 
-.dialog{
-    visibility: hidden;
-    display: grid;
-    grid-template-columns: repeat(1, 80%);
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    z-index: 1;
-    left: 0; top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.25);
-}
-
-.dialogbox{
-    background-color:white;
-    border-radius: 10px;
-    height: 70%;
-    padding: 25px;   
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
-    grid-template-rows: 15% 70% 15%;
-}
-.dialogbox1{
-    background-color:white;
-    border-radius: 10px;
-    height: 70%;
-    padding: 25px;   
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
-    grid-template-rows: 15% 80% 5%;
-}
-
-.dialogbody2{
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-.dialogfoot{
-    display: grid;
-    grid-template-columns: repeat(1, 100%);
-    justify-items:right;
-    align-items: center;
-}
-
-.button2{
-    background-color: white;
-    border-radius: 10px;
-    border: 2.75px solid black;
-    color: white;
-    height: 40px;
-    width: 150px;
-    display: grid;
-    grid-template-columns: 100%;
-    align-items: center;    
-    justify-content: center;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-    justify-items: center;
-    justify-self: center;
-}
-
-.big{
-    height: 75%; 
-}
-
-.tile{
-    background-color: white;
-    max-width: 100%;
-    height: auto;
-    display: grid;
-    grid: flex;
-    align-content: center;
-    justify-items: left;
-    margin-left: 5px;
-    margin-bottom: 5px;}    
-
-.tiles{
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-height: 100%;}    
+@media screen and (max-width: 1920px) {
+    .dialog{
+        visibility: hidden;
+        display: grid;
+        grid-template-columns: repeat(1, 80%);
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        z-index: 1;
+        left: 0; top: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.25);
+    }
     
-.tile1 {
-    width: 30%;
-    text-align: justify;
-    align-self: center;
-    max-height: 250px;
-    font-size: 15px;
-    overflow-y: auto;
-    overflow-x: hidden;
-}
-
-.tile2{
-    width: 70%;
-    text-align: justify;
-    align-self: center;
-    max-height: 100%;
-    font-size: 15px;
-    overflow-y: auto;
-    overflow-x: hidden;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-ul{
-    list-style-type: none;
-    padding-left: 10.0px;
-    font-size: 13.5px;
-    text-align: justify;
-}
-li{
+    .dialogbox{
+        background-color:white;
+        border-radius: 10px;
+        height: 70%;
+        padding: 25px;   
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+        grid-template-rows: 15% 70% 15%;
+    }
+    .dialogbox1{
+        background-color:white;
+        border-radius: 10px;
+        height: 70%;
+        padding: 25px;   
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+        grid-template-rows: 15% 80% 5%;
+    }
+    
+    .dialogbody2{
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .dialogfoot{
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        justify-items:right;
+        align-items: center;
+    }
+    
+    .button2{
+        background-color: white;
+        border-radius: 10px;
+        border: 2.75px solid black;
+        color: white;
+        height: 40px;
+        width: 150px;
+        display: grid;
+        grid-template-columns: 100%;
+        align-items: center;    
+        justify-content: center;
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+        justify-items: center;
+        justify-self: center;
+    }
+    
+    .big{
+        height: 75%; 
+    }
+    
+    .tile{
+        background-color: white;
+        max-width: 100%;
+        height: auto;
+        display: grid;
+        grid: flex;
+        align-content: center;
+        justify-items: left;
+        margin-left: 5px;
+        margin-bottom: 5px;}    
+    
+    .tiles{
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-height: 100%;}    
+        
+    .tile1 {
+        width: 30%;
+        text-align: justify;
+        align-self: center;
+        max-height: 250px;
+        font-size: 15px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    
+    .tile2{
+        width: 70%;
+        text-align: justify;
+        align-self: center;
+        max-height: 100%;
+        font-size: 15px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    ul{
+        list-style-type: none;
+        padding-left: 10.0px;
+        font-size: 13.5px;
+        text-align: justify;
+    }
+    li{
+        margin-bottom: 10px;
+    }
+    
+    .text{
+        color: black;
+        font-size: 15px;
+        max-height: 100%;
+        padding-right: 2.5px;
+        text-align: justify;}
+    
+    .label {
+        color: black;
+        text-align: center;
+    }
+    
+    .closebtn p b{
+        color: black;
+        float: right;
+        font-size: 25px;
+    }
+    
+    .title{
+        display: grid;
+        grid-template-columns: 80% 20%;
+        align-content: center;
+    }
+    
+    .title p{
+        color: black;
+        font-size: 20px;    
+        justify-self: left;
+        align-self: center;
+    }
+    .title span p{
+        cursor: pointer;
+        justify-self: right;
+        align-self: center;
+    }
+    
+    .highlight1{
+    margin-top: 10px;
     margin-bottom: 10px;
-}
-
-.text{
-    color: black;
-    font-size: 15px;
-    max-height: 100%;
-    padding-right: 2.5px;
-    text-align: justify;}
-
-.label {
-    color: black;
-    text-align: center;
-}
-
-.closebtn p b{
-    color: black;
-    float: right;
-    font-size: 25px;
-}
-
-.title{
-    display: grid;
-    grid-template-columns: 80% 20%;
-    align-content: center;
-}
-
-.title p{
-    color: black;
-    font-size: 20px;    
-    justify-self: left;
-    align-self: center;
-}
-.title span p{
-    cursor: pointer;
-    justify-self: right;
-    align-self: center;
-}
-
-.highlight1{
-margin-top: 10px;
-margin-bottom: 10px;
-color: rgb(225, 118, 7);
-font-size: 17.5px;
-}
+    color: rgb(225, 118, 7);
+    font-size: 17.5px;
+    }
+        
+    .tile1 img{
+        text-align: center;
+        max-width: 75%;
+        height: auto;
+    } 
+      
+    .gcadimg{
+        text-align: center;
+        max-width: 100%;
+        height: 300px;
+        padding-left: 25px;
+    } 
+    .texttile1{
+        width: 100%;
+        text-align: justify;
+        margin-left: 10px;
+        height: 200px;
+    }	
     
-.tile1 img{
-    text-align: center;
-    max-width: 75%;
-    height: auto;
-} 
-  
-.gcadimg{
-    text-align: center;
-    max-width: 100%;
-    height: 300px;
-    padding-left: 25px;
-} 
-.texttile1{
-    width: 100%;
-    text-align: justify;
-    margin: 10px;
-    height: 200px;
-}	
-
-embed{
-    padding-left: 20px;
-    height: 320px;
-    width: 100%;
+    embed{
+        padding-left: 20px;
+        height: 320px;
+        width: 100%;
+    }
+    
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 415px) {
+    .dialog{
+        visibility: hidden;
+        display: grid;
+        grid-template-columns: repeat(1, 80%);
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        z-index: 1;
+        left: 0; top: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.25);
+    }
+    
+    .dialogbox{
+        background-color:white;
+        border-radius: 10px;
+        height: 70%;
+        padding: 10px;   
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+        grid-template-rows: 15% 70% 15%;
+    }
+    .dialogbox1{
+        background-color:white;
+        border-radius: 10px;
+        height: 70%;
+        padding: 10px;   
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+        grid-template-rows: 15% 80% 5%;
+    }
+    .dialogbody{
+        color: black;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        height: 100%;
+    }
+    .dialogbody2{
+        color: black;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .dialogfoot{
+        display: grid;
+        margin-top: 5px;
+        grid-template-columns: repeat(1, 100%);
+        justify-items:right;
+        align-items: center;
+    }
+    
+    .button2{
+        background-color: white;
+        border-radius: 10px;
+        border: 2.75px solid black;
+        color: white;
+        height: 40px;
+        width: 150px;
+        display: grid;
+        grid-template-columns: 100%;
+        align-items: center;    
+        justify-content: center;
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+        justify-items: center;
+        justify-self: center;
+    }
+    
+    .big{
+        height: 75%; 
+    }
+    
+    .tile{
+        background-color: white;
+        max-width: 100%;
+        height: auto;
+        display: grid;
+        grid: flex;
+        align-content: center;
+        justify-items: left;
+        margin-left: 5px;
+        margin-bottom: 5px;}    
+    
+    .tiles{
+        color: black;
+        display: grid;
+        grid-template-columns: repeat(1, 95%);
+        grid-template-rows: repeat(2, 30%, 60%);
+        justify-content: center;
+        align-items: center;
+        max-height: 100%;}    
+        
+    .tile1 {
+        width: 95%;
+        text-align: justify;
+        align-self: center;
+        max-height: 145px;
+        font-size: 12.5px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
 
-
+    .image{
+        display: grid;
+        grid-template-rows: repeat(2, 90%, 10%);
+        justify-self: center;
+    }
+    
+    .tile2{
+        width: 95%;
+        text-align: justify;
+        align-self: center;
+        max-height: 100%;
+        font-size: 12.5px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        margin-bottom: 5px;
+    }
+    
+    ul{
+        list-style-type: none;
+        padding-left: 10.0px;
+        font-size: 13.5px;
+        text-align: justify;
+    }
+    li{
+        margin-bottom: 2.5px;
+    }
+    
+    .text{
+        color: black;
+        font-size: 15px;
+        max-height: 100%;
+        padding-right: 0px;
+        text-align: justify;}
+    
+    .label {
+        color: black;
+        text-align: center;
+    }
+    
+    .closebtn p b{
+        color: black;
+        float: none;
+        font-size: 25px;
+    }
+    
+    .title{
+        display: grid;
+        grid-template-columns: 90% 10%;
+        align-content: center;
+    }
+    
+    .title p{
+        color: black;
+        font-size: 17.5px;    
+        justify-self: left;
+        align-self: center;
+    }
+    .title span p{
+        cursor: pointer;
+        justify-self: right;
+        align-self: center;
+    }
+    
+    .highlight1{
+    margin-top: 4px;
+    margin-bottom: 2.5px;
+    color: rgb(225, 118, 7);
+    font-size: 12px;
+    }
+        
+    .tile1 img{
+        text-justify: auto;
+        text-align: center;
+        max-width: 40%;
+        height: auto;
+    } 
+      
+    .gcadimg{
+        text-align: center;
+        max-width: 100%;
+        height: 300px;
+        padding-left: 25px;
+    } 
+    .texttile1{
+        width: 100%;
+        text-align: justify;
+        text-justify: auto;
+        height: 200px;
+        margin-left: 0px;
+    }	
+    
+    embed{
+        padding-left: 20px;
+        height: 320px;
+        width: 100%;
+    }
+    
 }
 
     
