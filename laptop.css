@@ -1,93 +1,95 @@
 @charset "utf-8";
 /* CSS Document */
-
-.body{
-font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-background-color: #f6f6f6;
-padding-top: 10px;}
-
-.minortext{
-color: #6e6362;
-justify-self: left;
-padding-left: 10px;
-padding-right: 10px;
-margin-top: 5px;
-margin-bottom: 5px;
-text-align: justify;
-font-size: 12px;
-line-height: 20px;}
-
-.more{
-color: rgb(25, 25, 25);
-justify-self: left;
-margin-top: 5px;
-margin-bottom: 5px;
-padding-left: 10px;
-text-decoration: none;}
-
-:hover.more{color: rgb(225, 118, 7);}
-
-.card{
-width: 100%;    
-display: flex;
-justify-content: center;
-align-content: center;
-margin-top: 10px;
-margin-bottom: 15px;
-margin-left: 15px;
-margin-right: 15px;}
-
-.imgtile1{
-margin-left: auto;
-margin-right: auto;
-width: 35%;
-align-self: center;}
-
-.texttile1{
-width: 55%;
-justify-items: left;
-align-self: center;
-margin: 10px;}	
-
-.highlight1{
-color: rgb(225, 118, 7);
-justify-self: left;
-margin-top: 5px;
-margin-bottom: 5px;
-padding-left: 10px;}	
-
-.icon2{
-padding-top: 5px;
-padding-bottom: 5px;
-padding-left: 10px;
-height: 100px; 
-width: 100px;}
-.text{
-color: #6e6362;
-padding-left: 10px;
-padding-right: 10px;
-margin-top: 5px;
-margin-bottom: 5px;
-text-align: justify;
-font-size: 14px;
-line-height: 20px;}
-
-.sectiontitle{
-color: rgb(25, 25, 25);
-font-size: 20px;
-text-align: center;
-top: 120px;}
-
-img{
-    max-width: 100%;
-    height: auto;
+@media screen and (max-width: 1920px) {
+    html{
+        font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+        background-color: #f6f6f6;
+        padding-top: 10px;}
+        
+        .minortext{
+        color: #6e6362;
+        justify-self: left;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: justify;
+        font-size: 12px;
+        line-height: 20px;}
+        
+        .more{
+        color: rgb(25, 25, 25);
+        justify-self: left;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-left: 10px;
+        text-decoration: none;}
+        
+        :hover.more{color: rgb(225, 118, 7);}
+        
+        .card{  
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-content: center;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+        margin-right: 15px;}
+        
+        .imgtile1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;   
+        align-items: center;}
+        
+        .image{
+        width: 90%;
+        height: 90%;
+        }
+        .caption{
+        color: #6e6362;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: justify;
+        font-size: 14px;}
+        
+        .texttile1{   
+        align-self: center;
+        margin: 10px;}	
+        
+        .highlight1{
+        color: rgb(225, 118, 7);
+        justify-self: left;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-left: 10px;}	
+        
+        .icon2{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        height: 100px; 
+        width: 100px;}
+        .text{
+        color: #6e6362;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: justify;
+        font-size: 14px;
+        line-height: 20px;}
+        
+        .sectiontitle{
+        color: rgb(25, 25, 25);
+        font-size: 20px;
+        text-align: center;
+        top: 120px;}
+        
 }
 
-
-@media screen and (max-width: 714px){
-
-    
-       
+@media screen and (max-width: 714px){   
     .card{
     display: grid;
     grid-template-columns: 1fr;
@@ -96,8 +98,8 @@ img{
     align-content: center;
     margin-top: 15px;
     margin-bottom: 5px;
-    margin-left: 15px;
-    margin-right: 15px;}   
+    margin-left: 10px;
+    margin-right: 10px;}   
     .tiles{
         display: flex;
         justify-content: space-around;
@@ -153,9 +155,16 @@ img{
     align-self: center;}
     .texttile1{
     width: 100%;
-    justify-items: left;
-    align-self: center;
-    margin: 10px;}	
+    align-self: center;}
+    .text{
+    color: #6e6362;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 10px;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 20px;}	
     
     .image{
     display: block;

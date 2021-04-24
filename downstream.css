@@ -152,28 +152,23 @@
         width: 100%;
         max-width: 500px;}            
 }
-
-@media screen and (max-width: 415px){
-       
-    .card{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    justify-content: center;
-    align-content: center;
-    margin-top: 15px;
-    margin-bottom: 5px;
-    margin-left: 15px;
-    margin-right: 15px;}   
-    .tiles{
+@media screen and (max-width: 1025px) {
+    .body{
+        font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+        background-color: #f6f6f6;
+        padding-top: 10px;}
+        
+        .tiles{
         display: flex;
         justify-content: space-around;
         justify-content: center;
         align-items: center;
-        margin-bottom: 10px;}  
-    .tile{
+        margin-bottom: 10px;}
+        
+        .tile{
         background-color: white;
         max-width: 100%;
+        width: 20%;
         height: auto;
         display: grid;
         grid-template-columns: 1fr;
@@ -182,17 +177,20 @@
         justify-items: left;
         text-align: start;
         margin-left: 10px;
-        margin-bottom: 10px;}        
-    .tiles1{
+        margin-bottom: 10px;}
+        
+        .tiles1{
         margin-top: 25px;
         display: flex;
         justify-content: space-around;
         justify-content: left;
         align-items: center;
-        margin-bottom: 10px;}       
-    .tile1{
+        margin-bottom: 10px;}
+        
+        .tile1{
         background-color: white;
         max-width: 100%;
+        width: 49%;
         height: auto;
         display: grid;
         grid-template-columns: 1fr;
@@ -201,10 +199,12 @@
         justify-items: left;
         text-align: start;
         margin-left: 10px;
-        margin-bottom: 10px;}       
-    .tile2{
+        margin-bottom: 10px;}   
+        
+        .tile2{
         background-color: white;
         max-width: 100%;
+        width: 25%;
         height: auto;
         display: grid;
         grid-template-columns: 1fr;
@@ -214,31 +214,247 @@
         text-align: start;
         margin-left: 10px;
         margin-bottom: 10px;}     
+        
+        .minortext{
+        color: #6e6362;
+        justify-self: left;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: justify;
+        font-size: 12px;
+        line-height: 20px;}
+        
+        .more{
+        color: rgb(25, 25, 25);
+        justify-self: left;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-left: 10px;
+        text-decoration: none;}
+        
+        :hover.more{color: rgb(225, 118, 7);}
+        
+        .card{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-content: center;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        margin-left: 25px;
+        margin-right: 25px;}
+        
+        .imgtile{
+        justify-self: center;
+        align-self: center;
+        width: 35%;}	
+        
+        .texttile{
+        width: 100%;    
+        align-self: center;}
+        
+        .imgtile1{
+        width: 100%;    
+        margin-left: auto;
+        margin-right: auto;
+        align-self: center;}
+        
+        .texttile1{
+        width: 60%;
+        justify-items: left;
+        align-self: center;
+        margin: 10px;}	
+        
+        .highlight1{
+        color: rgb(225, 118, 7);
+        justify-self: left;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-left: 10px;}	
+        
+        .icon2{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        height: 100px; 
+        width: 100px;}
+        .text{
+        color: #6e6362;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: justify;
+        font-size: 14px;
+        line-height: 20px;}
+        
+        .sectiontitle{
+        color: rgb(25, 25, 25);
+        font-size: 20px;
+        text-align: center;
+        top: 120px;}
+        
+        .image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: cover;
+        width: 100%;
+        max-width: 500px;}     
     
-    .texttile{
-    width: 100%;    
-    align-self: center;}
-    .texttile1{
-    width: 100%;
-    justify-items: left;
-    align-self: center;
-    margin: 10px;}	
+}
+@media screen and (max-width: 415px){
+       .body{
+        font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+        background-color: #f6f6f6;
+        padding-top: 10px;}
+        
+        .tiles{
+        display: flex;
+        justify-content: space-around;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;}
+        
+        .tile{
+        background-color: white;
+        max-width: 100%;
+        width: 20%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        align-self: stretch;
+        justify-items: left;
+        text-align: start;
+        margin-left: 10px;
+        margin-bottom: 10px;}
+        
+        .tiles1{
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-around;
+        justify-content: left;
+        align-items: center;
+        margin-bottom: 10px;}
+        
+        .tile1{
+        background-color: white;
+        max-width: 100%;
+        width: 49%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        align-self: stretch;
+        justify-items: left;
+        text-align: start;
+        margin-left: 10px;
+        margin-bottom: 10px;}   
+        
+        .tile2{
+        background-color: white;
+        max-width: 100%;
+        width: 25%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        align-self: stretch;
+        justify-items: left;
+        text-align: start;
+        margin-left: 10px;
+        margin-bottom: 10px;}     
+        
+        .minortext{
+        color: #6e6362;
+        justify-self: left;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: justify;
+        font-size: 12px;
+        line-height: 20px;}
+        
+        .more{
+        color: rgb(25, 25, 25);
+        justify-self: left;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-left: 10px;
+        text-decoration: none;}
+        
+        :hover.more{color: rgb(225, 118, 7);}
+        
+        .card{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-content: center;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        margin-left: 25px;
+        margin-right: 25px;}
+        
+        .imgtile{
+        justify-self: center;
+        align-self: center;
+        width: 35%;}	
+        
+        .texttile{
+        width: 100%;    
+        align-self: center;}
+        
+        .imgtile1{
+        width: 100%;    
+        margin-left: auto;
+        margin-right: auto;
+        align-self: center;}
+        
+        .texttile1{
+        width: 60%;
+        justify-items: left;
+        align-self: center;
+        margin: 10px;}	
+        
+        .highlight1{
+        color: rgb(225, 118, 7);
+        justify-self: left;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-left: 10px;}	
+        
+        .icon2{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        height: 100px; 
+        width: 100px;}
+        .text{
+        color: #6e6362;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: justify;
+        font-size: 14px;
+        line-height: 20px;}
+        
+        .sectiontitle{
+        color: rgb(25, 25, 25);
+        font-size: 20px;
+        text-align: center;
+        top: 120px;}
+        
+        .image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: cover;
+        width: 100%;
+        max-width: 500px;}     
     
-    .image{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    object-fit: cover;}
-    .imgtile{
-    width: 100%;    
-    justify-self: center;
-    align-self: center;}
-    .imgtile1{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    align-self: center;}
-      
-
- 
 } 
