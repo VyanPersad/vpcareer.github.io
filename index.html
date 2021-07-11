@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
     <meta content="True" name="HandheldFriendly">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -7,57 +8,60 @@
     <link type="text/css" rel="stylesheet" href="header&footer.css">
 </head>
 <html>
-    <header>
-        <div class="topnav">
-            <div class="navl">
-                <img id="icon" src="Icons/Slide1.PNG">
-            </div>	
-            <div class="navc">
-                <div><a href="index.html"><b>Home</b></a></div>
-                <div><a href="https://simpleengineeringarticles.wordpress.com/oil-and-gas/"><b>Upstream</b></a></div>
-                <div><a href="https://simpleengineeringarticles.wordpress.com/oil-gas-downstream-process/"><b>Process</b></a></div>
-                <div><a href="siteindex.html"><b>Site Map</b></a></div>
-            </div>	
-            <div class="navr">
-                <div ><a href="mailto:vyanpersad@gmail.com">
+<header>
+    <div class="topnav">
+        <div class="navl">
+            <img id="icon" src="Icons/Slide1.PNG">
+        </div>
+        <div class="navc">
+            <div><a href="index.html"><b>Home</b></a></div>
+            <div><a href="https://simpleengineeringarticles.wordpress.com/oil-and-gas/"><b>Upstream</b></a></div>
+            <div><a
+                    href="https://simpleengineeringarticles.wordpress.com/oil-gas-downstream-process/"><b>Process</b></a>
+            </div>
+            <div><a href="siteindex.html"><b>Site Map</b></a></div>
+        </div>
+        <div class="navr">
+            <div><a href="mailto:vyanpersad@gmail.com">
                     <img class="socm1" src="Icons/Slide6.PNG"></a></div>
-                <div ><a href="tel:1-868-716-5899">
-                    <img class="socm1" src="Icons/Slide26.PNG"></a></div>	
-                <div ><a href="https://www.linkedin.com/in/vyan-persad/">
+            <div><a href="tel:1-868-716-5899">
+                    <img class="socm1" src="Icons/Slide26.PNG"></a></div>
+            <div><a href="https://www.linkedin.com/in/vyan-persad/">
                     <img class="socm1" src="Icons/Slide5.PNG"></a></div>
-            </div>
-        </div>
-    </header>
-    <div class="banner">
-        <div class="left">
-            <div class="career"><b>Mechanical Engineer</b></div>
-            <div class="name">
-                <div class="first"><b>Vyan</b></div>
-                <div class="second"><b>Persad</b></div>
-            </div>
-        </div>
-        <div class="right">
-            <img class="profileimg" src="Images/SPProfilePicPro.png">
         </div>
     </div>
+</header>
+<div class="banner">
+    <div class="left">
+        <div class="career"><b>Mechanical Engineer</b></div>
+        <div class="name">
+            <div class="first"><b>Vyan</b></div>
+            <div class="second"><b>Persad</b></div>
+        </div>
+    </div>
+    <div class="right">
+        <img class="profileimg" src="Images/SPProfilePicPro.png">
+    </div>
+</div>
+
 <body>
     <div class="categories">
         <div class="cat"><b>Education</b>
             <div class="butts">
-            <button id="acc" class="button" onclick="openacca()">
-                <b>Diploma in Accounting & Business</b></button> 
-            <button id="pete" class="button" onclick="openpet()">
-                <b>MSc. Petroleum Engineering</b></button>
-            <button id="mech" class="button" onclick="openmech()">
-                <b>BSc. Mechanical Engineering</b></button>
+                <button id="acc" class="button" onclick="openacca()">
+                    <b>Diploma in Accounting & Business</b></button>
+                <button id="pete" class="button" onclick="openpet()">
+                    <b>MSc. Petroleum Engineering</b></button>
+                <button id="mech" class="button" onclick="openmech()">
+                    <b>BSc. Mechanical Engineering</b></button>
             </div>
         </div>
         <div class="cat"><b>Projects</b>
             <div class="butts">
-            <button id="lcp" class="button" onclick="openpad()">
-                <b>Laptop Cooling Pad</b></button>
-            <button id="papp" class="button" onclick="openpapp()">
-                <b>PetroCalc App</b></button>
+                <button id="lcp" class="button" onclick="openpad()">
+                    <b>Laptop Cooling Pad</b></button>
+                <button id="papp" class="button" onclick="openpapp()">
+                    <b>PetroCalc App</b></button>
             </div>
         </div>
         <div class="cat"><b>Work</b>
@@ -68,7 +72,7 @@
                     <b>Petrotrin</b></button>
                 <button id="gul" class="button" onclick="gulf()">
                     <b>GULF Engineering Services Ltd.</b></button>
-                </div>
+            </div>
         </div>
         <div class="cat"><b>Online</b>
             <div class="butts">
@@ -79,434 +83,526 @@
                 <button id="blog" class="button" onclick="gcad()">
                     <b>GrabCAD</b></button>
             </div>
+            <div class="butts">
+                <button id="blog" class="button" onclick="gcad()">
+                    <b>GitHub</b></button>
+            </div>
         </div>
     </div>
     <div id="modal">
         <!--Education-->
         <div class="dialog" id="accaview">
             <div class="dialogbox1">
-              <div class="title">
-                <p><b>ACCA Diploma in Accounting & Business</b></p>
-                <span class="closebtn" id="closemodal" onclick="closeacca()">
-                    <p><b>&times;</b></p></span>
-              </div>
-              <div class="dialogbody">
-                <div class="tiles">
-                    <div class="tile1"> 
-                        <div class="highlight1">
-                        <b><p>ACCA Diploma in Accounting & Business</p> 
-                        <p>RQF Level 4</p></b></div>
-                        <p><b>SBCS</b></p>
-                        <p>2019</p>
-                    </div>
-                    <div class="tile2">
-                        <div class="texttile1">
-                        <p>The choice to pursue ACCA qualification came from a desire
-                        to diversify my STEM background into a still relevant and
-                        industry applicable skillset. ACCA was choosen based on the 
-                        fact that it is recognised locally and globally.</p>
-                        <p>It allows me tackle traditional engineering problems with 
-                        greater breadth as I now gave a greater understanding of 
-                        both the technical and financial constraints of any particular 
-                        situation. However it is not limited to being applied engineering 
-                        circumstances it can stand as a profession of its own,thus 
-                        allowing me to perform a role that is wholy unique and outide of 
-                        the engineering field.</p>
-                        <p>This multi faceted career profile allows me to function across
-                        many different job functions and roles.</p>
+                <div class="title">
+                    <p><b>ACCA Diploma in Accounting & Business</b></p>
+                    <span class="closebtn" id="closemodal" onclick="closeacca()">
+                        <p><b>&times;</b></p>
+                    </span>
+                </div>
+                <div class="dialogbody">
+                    <div class="tiles">
+                        <div class="tile1">
+                            <div class="highlight1">
+                                <b>
+                                    <p>ACCA Diploma in Accounting & Business</p>
+                                    <p>RQF Level 4</p>
+                                </b>
+                            </div>
+                            <p><b>SBCS</b></p>
+                            <p>2019</p>
+                        </div>
+                        <div class="tile2">
+                            <div class="texttile1">
+                                <p>The choice to pursue ACCA qualification came from a desire
+                                    to diversify my STEM background into a still relevant and
+                                    industry applicable skillset. ACCA was choosen based on the
+                                    fact that it is recognised locally and globally.</p>
+                                <p>It allows me tackle traditional engineering problems with
+                                    greater breadth as I now gave a greater understanding of
+                                    both the technical and financial constraints of any particular
+                                    situation. However it is not limited to being applied engineering
+                                    circumstances it can stand as a profession of its own,thus
+                                    allowing me to perform a role that is wholy unique and outide of
+                                    the engineering field.</p>
+                                <p>This multi faceted career profile allows me to function across
+                                    many different job functions and roles.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-              </div>
-              <div class="dialogfoot"></div>
+                <div class="dialogfoot"></div>
             </div>
         </div>
         <div class="dialog" id="petview">
             <div class="dialogbox1">
-              <div class="title">
-                <p><b>MSc. Petroleum Engineering</b></p>
-                <span class="closebtn" id="closemodal" onclick="closepet()">
-                    <p><b>&times;</b></p></span>
-              </div>
-              <div class="dialogbody">
-                <div class="tiles">
-                    <div class="tile1 minortext">
-                        <div class="highlight1"><b>MSC. Petroleum Engineering</b></div>
-                        <div><p><b>The University of The West Indies</b></p></div>
-                        <div><p>2017</p></div>
-                    </div>
-                    <div class="tile2 minortext">
-                        <div class="texttile1">
-                        <p>The MSc. was undertaken at a time when I was employed
-                        within the oil and gas sector. Having grown up in an oil (and gas) town
-                        (Fyzabad) and finding a job within the sector it was a some what personal
-                        endeavour to try and learn as much and hopefully apply it as quickly as 
-                        possible</p>
-                        <p>Having grown up within walking distance of production stations, pumping jacks 
-                        drilling and workover rigs and the then prevailing job and economic situation it 
-                        seemed te best option for both advancement and a certain technical challenge.
-                        </p>
-                        <p>My MSc. in Petroleum Engineering has led me to develop mobile software that enables the user to
-                        perform a multitude of calculations pertaining to the oil and gas field. This work has given me
-                        tremendous insight into the new technological tools that are available to young engineers and the
-                        knowledge on how best to utilize them, especially within the oil and gas industry. This course gave the
-                        student the insight into, and practice with real world scenarios related to oil and gas field development
-                        and production.	
-                        </p>	
+                <div class="title">
+                    <p><b>MSc. Petroleum Engineering</b></p>
+                    <span class="closebtn" id="closemodal" onclick="closepet()">
+                        <p><b>&times;</b></p>
+                    </span>
+                </div>
+                <div class="dialogbody">
+                    <div class="tiles">
+                        <div class="tile1 minortext">
+                            <div class="highlight1"><b>MSC. Petroleum Engineering</b></div>
+                            <div>
+                                <p><b>The University of The West Indies</b></p>
+                            </div>
+                            <div>
+                                <p>2017</p>
+                            </div>
+                        </div>
+                        <div class="tile2 minortext">
+                            <div class="texttile1">
+                                <p>The MSc. was undertaken at a time when I was employed
+                                    within the oil and gas sector. Having grown up in an oil (and gas) town
+                                    (Fyzabad) and finding a job within the sector it was a some what personal
+                                    endeavour to try and learn as much and hopefully apply it as quickly as
+                                    possible</p>
+                                <p>Having grown up within walking distance of production stations, pumping jacks
+                                    drilling and workover rigs and the then prevailing job and economic situation it
+                                    seemed te best option for both advancement and a certain technical challenge.
+                                </p>
+                                <p>My MSc. in Petroleum Engineering has led me to develop mobile software that enables
+                                    the user to
+                                    perform a multitude of calculations pertaining to the oil and gas field. This work
+                                    has given me
+                                    tremendous insight into the new technological tools that are available to young
+                                    engineers and the
+                                    knowledge on how best to utilize them, especially within the oil and gas industry.
+                                    This course gave the
+                                    student the insight into, and practice with real world scenarios related to oil and
+                                    gas field development
+                                    and production.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-              </div>
-              <div class="dialogfoot"></div>
+                <div class="dialogfoot"></div>
             </div>
         </div>
         <div class="dialog" id="mechview">
             <div class="dialogbox1">
-              <div class="title">
-                <p><b>BSc. Mechanical Engineering</b></p>
-                <span class="closebtn" id="closemodal" onclick="closemech()">
-                    <p><b>&times;</b></p></span>
-              </div>
-              <div class="dialogbody">
-                <div class="tiles">
-                    <div class="tile1 minortext">
-                        <div class="highlight1">
-                        <b>BSc. Mechanical Engineering</b></div>
-                        <div><p><b>The University of The West Indies</b></p></div>
-                        <div><p>2011</p></div>
-                    </div>
-                    <div class="tile2 minortext">
-                        <div class="texttile1">
-                        <p>My choice to pursue Mechanical Engineering comes out of 
-                        a life long love of mechanical things, how they work and 
-                        function.</p>
-                        <p>It is the culmination of a desire and curiousity with
-                        making and inventing things, a love of the process of creating 
-                        and seeing things that can be used in the real world to solve or 
-                        are themselves the solution to real world problems.      
-                        </p>
-                        <p>My degree has provided me with the necessary academic 
-                        tools needed to function as an engineer in the workplace. 
-                        Tools include the ability to design and troubleshoot 
-                        mechanical processes as evidenced by my final year project 
-                        which was to design and build a custom laptop cooling pad.</p>
+                <div class="title">
+                    <p><b>BSc. Mechanical Engineering</b></p>
+                    <span class="closebtn" id="closemodal" onclick="closemech()">
+                        <p><b>&times;</b></p>
+                    </span>
+                </div>
+                <div class="dialogbody">
+                    <div class="tiles">
+                        <div class="tile1 minortext">
+                            <div class="highlight1">
+                                <b>BSc. Mechanical Engineering</b>
+                            </div>
+                            <div>
+                                <p><b>The University of The West Indies</b></p>
+                            </div>
+                            <div>
+                                <p>2011</p>
+                            </div>
+                        </div>
+                        <div class="tile2 minortext">
+                            <div class="texttile1">
+                                <p>My choice to pursue Mechanical Engineering comes out of
+                                    a life long love of mechanical things, how they work and
+                                    function.</p>
+                                <p>It is the culmination of a desire and curiousity with
+                                    making and inventing things, a love of the process of creating
+                                    and seeing things that can be used in the real world to solve or
+                                    are themselves the solution to real world problems.
+                                </p>
+                                <p>My degree has provided me with the necessary academic
+                                    tools needed to function as an engineer in the workplace.
+                                    Tools include the ability to design and troubleshoot
+                                    mechanical processes as evidenced by my final year project
+                                    which was to design and build a custom laptop cooling pad.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-              </div>
-              <div class="dialogfoot"></div>
+                <div class="dialogfoot"></div>
             </div>
         </div>
         <!--Projects-->
         <div class="dialog" id="padview">
             <div class="dialogbox">
-              <div class="title">
-                <p><b>Laptop Cooling Pad</b></p>
-                <span class="closebtn" id="closemodal" onclick="closepad()"><p><b>&times;</b></p></span>
-              </div>
-              <div class="dialogbody">
-                <div class="tiles">
-                    <div class="tile1 image">
-                        <img class="image" src="Icons/Slide11.PNG" alt="">
-                        <p class="label"><b>Final Design Render</b></p>
-                    </div>
-                    <div class="tile2 image">
-                        <div class="texttile1">
-                            <p class="highlight"><b>Description</b></p>
-                            <div class="text">
-                            <p>The aim of the project was to design build and test a device that can lower the temperature of a laptop. 
-                            In addition it aimed to investigate the effect of the lowered temperature on the performance of the laptop.</p>  
-                            <p></p>
-                            <p>The laptop pad was designed, built and tested. The testing consisted of both virtual and real world testing in 
-                            addition to verification by manual calculation. The virtual component utilized SolidWorks COSMOS and FloXpress 
-                            to perform air flow, thermal, stress and displacement finite element analyses on the design.</p> 
-                            <p></p>
-                            <p>The real world testing consisted of measuring the CPU performance, battery life, laptop temperatures, PCMark 
-                            test results and the measurement of program load times. The project built pad was also compared to a commercially 
-                            available generic store bought cooling pad.</p> 
-                            <p></p>     
-                            <p>It was found from the virtual testing that the design put forward was in fact worthy of building. 
-                            It proved that the design elements (eg. Aluminum heat sink) performed as they would be expected to. 
-                            The real world testing proved that the cooling pad improves laptop performance and response time, reduces laptop 
-                            operating temperatures but at the same time reduces battery life.</p>  
-                            <p></p>   
-                            <p>The laptop cooling pad was built, tested and found to increase the performance of the laptop in all the suggested areas. 
-                            In comparison it outperforms the store bought cooling pad in all the measured engineering oriented characteristics, 
-                            however it is second in the rank to the store bought when one considers the consumer oriented characteristics.</p> 
+                <div class="title">
+                    <p><b>Laptop Cooling Pad</b></p>
+                    <span class="closebtn" id="closemodal" onclick="closepad()">
+                        <p><b>&times;</b></p>
+                    </span>
+                </div>
+                <div class="dialogbody">
+                    <div class="tiles">
+                        <div class="tile1 image">
+                            <img class="image" src="Icons/Slide11.PNG" alt="">
+                            <p class="label"><b>Final Design Render</b></p>
+                        </div>
+                        <div class="tile2 image">
+                            <div class="texttile1">
+                                <p class="highlight"><b>Description</b></p>
+                                <div class="text">
+                                    <p>The aim of the project was to design build and test a device that can lower the
+                                        temperature of a laptop.
+                                        In addition it aimed to investigate the effect of the lowered temperature on the
+                                        performance of the laptop.</p>
+                                    <p></p>
+                                    <p>The laptop pad was designed, built and tested. The testing consisted of both
+                                        virtual and real world testing in
+                                        addition to verification by manual calculation. The virtual component utilized
+                                        SolidWorks COSMOS and FloXpress
+                                        to perform air flow, thermal, stress and displacement finite element analyses on
+                                        the design.</p>
+                                    <p></p>
+                                    <p>The real world testing consisted of measuring the CPU performance, battery life,
+                                        laptop temperatures, PCMark
+                                        test results and the measurement of program load times. The project built pad
+                                        was also compared to a commercially
+                                        available generic store bought cooling pad.</p>
+                                    <p></p>
+                                    <p>It was found from the virtual testing that the design put forward was in fact
+                                        worthy of building.
+                                        It proved that the design elements (eg. Aluminum heat sink) performed as they
+                                        would be expected to.
+                                        The real world testing proved that the cooling pad improves laptop performance
+                                        and response time, reduces laptop
+                                        operating temperatures but at the same time reduces battery life.</p>
+                                    <p></p>
+                                    <p>The laptop cooling pad was built, tested and found to increase the performance of
+                                        the laptop in all the suggested areas.
+                                        In comparison it outperforms the store bought cooling pad in all the measured
+                                        engineering oriented characteristics,
+                                        however it is second in the rank to the store bought when one considers the
+                                        consumer oriented characteristics.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-              </div>
-              <div class="dialogfoot">
-                <div class="button2"><a href="laptop.html"><b>More</b></a></div>
-              </div>
+                <div class="dialogfoot">
+                    <div class="button2"><a href="laptop.html"><b>More</b></a></div>
+                </div>
             </div>
         </div>
         <div class="dialog" id="appview">
             <div class="dialogbox">
-              <div class="title">
-                <p><b>PetroCalc</b></p>
-                <span class="closebtn" id="closemodal" onclick="closepapp()">
-                    <p><b>&times;</b></p></span>
-              </div>
-              <div class="dialogbody">
-                <div class="tiles">
-                    <div class="tile1">
-                        <img class="image" src="Icons/pet.png" alt="">
-                        <p class="lebel"><b></b></p>
-                    </div>
-                    <div class="tile2">
-                        <div class="texttile1">
-                            <p class="highlight"><b>Description</b></p>
-                            <div class="text"><p>The app was designed to be a tool for both student 
-                                and professional in the oil and gas sector, 
-                                targeting both by delivering content specifically 
-                                designed to be used by both parties. 
-                                It was designed to be an electronic learning device 
-                                to students and go on to be a calculator for oil and 
-                                gas professionals. It aims to provide a cheaper 
-                                platform for oil and gas software, one that is also 
-                                more mobile and easier to use.<p></p>
-                            <p>It was coded in android, the programming language, 
-                                for mobile handsets using the android OS. It was 
-                                developed using the Android Studios IDE and 
-                                uploaded to the web using the Google Play developer 
-                                website. The software IDE allowed for the app to be 
-                                tested for stability on various handsets and aided in 
-                                the troubleshooting of problems in the design process. 
-                                The second part of the project was the hosting of 
-                                material online, it allowed for distributing material 
-                                via another platform and providing content and features 
-                                that are not otherwise available on the app.<p></p>
-                            <p>The app gives the student access to content that is 
-                                tailored from the petroleum engineering course at 
-                                the University of the West Indies, a course layout 
-                                that is applicable to students locally and internationally. 
-                                The professional has access to a series of 
-                                mathematical calculators that aid in executing 
-                                common engineering calculations pertaining to the 
-                                field. </p> 
-                            <p></p>     
-                            <p>Once uploaded the app’s downloads exceeded 500+ downloads, 
-                                with a retention rate of 60% as of the writing of this report, 
-                                indicating a demand for the app and the service that it provides. 
-                                The number of downloads internationally has exceeded local 
-                                downloads, proving the concept and the content are applicable to 
-                                the international oil and gas industry. Geographically the app’s 
-                                downloads directly correlate to other major international oil and 
-                                gas producers. This popularity points to the applicability of the 
-                                app to the industry and the intended markets.<p></p>   
+                <div class="title">
+                    <p><b>PetroCalc</b></p>
+                    <span class="closebtn" id="closemodal" onclick="closepapp()">
+                        <p><b>&times;</b></p>
+                    </span>
+                </div>
+                <div class="dialogbody">
+                    <div class="tiles">
+                        <div class="tile1">
+                            <img class="image" src="Icons/pet.png" alt="">
+                            <p class="lebel"><b></b></p>
+                        </div>
+                        <div class="tile2">
+                            <div class="texttile1">
+                                <p class="highlight"><b>Description</b></p>
+                                <div class="text">
+                                    <p>The app was designed to be a tool for both student
+                                        and professional in the oil and gas sector,
+                                        targeting both by delivering content specifically
+                                        designed to be used by both parties.
+                                        It was designed to be an electronic learning device
+                                        to students and go on to be a calculator for oil and
+                                        gas professionals. It aims to provide a cheaper
+                                        platform for oil and gas software, one that is also
+                                        more mobile and easier to use.
+                                    <p></p>
+                                    <p>It was coded in android, the programming language,
+                                        for mobile handsets using the android OS. It was
+                                        developed using the Android Studios IDE and
+                                        uploaded to the web using the Google Play developer
+                                        website. The software IDE allowed for the app to be
+                                        tested for stability on various handsets and aided in
+                                        the troubleshooting of problems in the design process.
+                                        The second part of the project was the hosting of
+                                        material online, it allowed for distributing material
+                                        via another platform and providing content and features
+                                        that are not otherwise available on the app.
+                                    <p></p>
+                                    <p>The app gives the student access to content that is
+                                        tailored from the petroleum engineering course at
+                                        the University of the West Indies, a course layout
+                                        that is applicable to students locally and internationally.
+                                        The professional has access to a series of
+                                        mathematical calculators that aid in executing
+                                        common engineering calculations pertaining to the
+                                        field. </p>
+                                    <p></p>
+                                    <p>Once uploaded the app’s downloads exceeded 500+ downloads,
+                                        with a retention rate of 60% as of the writing of this report,
+                                        indicating a demand for the app and the service that it provides.
+                                        The number of downloads internationally has exceeded local
+                                        downloads, proving the concept and the content are applicable to
+                                        the international oil and gas industry. Geographically the app’s
+                                        downloads directly correlate to other major international oil and
+                                        gas producers. This popularity points to the applicability of the
+                                        app to the industry and the intended markets.
+                                    <p></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-              </div>
-              <div class="dialogfoot">
-                <div class="button2">
-                <a href="https://play.google.com/store/apps/details?id=com.petroleum.engineering.petrocalc&hl=en&gl=US"><b>More</b></a></div>
-              </div>
+                <div class="dialogfoot">
+                    <div class="button2">
+                        <a
+                            href="https://play.google.com/store/apps/details?id=com.petroleum.engineering.petrocalc&hl=en&gl=US"><b>More</b></a>
+                    </div>
+                </div>
             </div>
         </div>
         <!--Work-->
         <div class="dialog" id="spslview">
             <div class="dialogbox">
-              <div class="title">
-                <p><b>SPSL</b></p>
-                <span class="closebtn" id="closemodal" onclick="clspsl()">
-                    <p><b>&times;</b></p></span>
-              </div>
-              <div class="dialogbody2">
-                <div class="tile1 minortext">
-                    <div class="highlight1">
-                    <b><p>SPSL</p></b>
-                    <p>Drilling Engineer</p></div>
-                    <P><b>From</b>	March 6, 2018</P>
-                    <P><b>To</b>	May 4, 2018</P>
+                <div class="title">
+                    <p><b>SPSL</b></p>
+                    <span class="closebtn" id="closemodal" onclick="clspsl()">
+                        <p><b>&times;</b></p>
+                    </span>
                 </div>
-                <div class="tile2 minortext">
-                    <br>
-                    <p><b>Description</b></p>
-                    <p><ul>
-                    <li>Provided engineering support to operations.</li>
-                    <li>Maintained engineering records of operations.</li>
-                    <li>Liaised with contractors to execute operations per plan.</li>
-                    <li>Evaluate and appraised deviations from planned operations.</li>
-                    <li>Calculated the financial implications of lost time.</li>
-                    <li>Completed daily costing for operations.</li>
-                    </ul></p>
+                <div class="dialogbody2">
+                    <div class="tile1 minortext">
+                        <div class="highlight1">
+                            <b>
+                                <p>SPSL</p>
+                            </b>
+                            <p>Drilling Engineer</p>
+                        </div>
+                        <P><b>From</b> March 6, 2018</P>
+                        <P><b>To</b> May 4, 2018</P>
+                    </div>
+                    <div class="tile2 minortext">
+                        <br>
+                        <p><b>Description</b></p>
+                        <p>
+                        <ul>
+                            <li>Provided engineering support to operations.</li>
+                            <li>Maintained engineering records of operations.</li>
+                            <li>Liaised with contractors to execute operations per plan.</li>
+                            <li>Evaluate and appraised deviations from planned operations.</li>
+                            <li>Calculated the financial implications of lost time.</li>
+                            <li>Completed daily costing for operations.</li>
+                        </ul>
+                        </p>
+                    </div>
                 </div>
-              </div>
-              <div class="dialogfoot">
-                <div class="button2"><a href="spsl.html"><b>More</b></a></div>
-              </div>
+                <div class="dialogfoot">
+                    <div class="button2"><a href="spsl.html"><b>More</b></a></div>
+                </div>
             </div>
         </div>
         <div class="dialog" id="petroview">
             <div class="dialogbox">
-              <div class="title">
-                <p><b>Petrotrin</b></p>
-                <span class="closebtn" id="closemodal" onclick="clpetro()">
-                    <p><b>&times;</b></p></span>
-              </div>
-              <div class="dialogbody2">
+                <div class="title">
+                    <p><b>Petrotrin</b></p>
+                    <span class="closebtn" id="closemodal" onclick="clpetro()">
+                        <p><b>&times;</b></p>
+                    </span>
+                </div>
+                <div class="dialogbody2">
                     <div class="tile1 minortext">
-                    <div class="highlight1">
-                        <b><p>Petrotrin</p></b>
-                        <p>Graduate Mechanical Engineer</p></div>
-                    <br>
-                    <P><b>From</b>	March 5, 2012</P>
-                    <P><b>To</b>	March 7, 2014</P>
-                    <br>
+                        <div class="highlight1">
+                            <b>
+                                <p>Petrotrin</p>
+                            </b>
+                            <p>Graduate Mechanical Engineer</p>
+                        </div>
+                        <br>
+                        <P><b>From</b> March 5, 2012</P>
+                        <P><b>To</b> March 7, 2014</P>
+                        <br>
                     </div>
                     <div class="tile2 minortext">
-                    <p><b>Description</b></p>
-                    <p><ul>
-                    <li>Equipment inspection & maintenance.</li>
-                    <li>Formulated an Asset Integrity Management System.</li>
-                    <li>Engineering design & sizing of process components.</li>
-                    <li>Tender preparation.</li>
-                    <li>Well bore design principles, from drilling, 
-                    completion and production through to abandonment.</li>
-                    <li>Engineering design and the sizing and 
-                    selection process components.</li>
-                </ul></p>
+                        <p><b>Description</b></p>
+                        <p>
+                        <ul>
+                            <li>Equipment inspection & maintenance.</li>
+                            <li>Formulated an Asset Integrity Management System.</li>
+                            <li>Engineering design & sizing of process components.</li>
+                            <li>Tender preparation.</li>
+                            <li>Well bore design principles, from drilling,
+                                completion and production through to abandonment.</li>
+                            <li>Engineering design and the sizing and
+                                selection process components.</li>
+                        </ul>
+                        </p>
                     </div>
-              </div>
-              <div class="dialogfoot">
-                <div class="button2"><a href="petrowork.html"><b>More</b></a></div>
-              </div>
+                </div>
+                <div class="dialogfoot">
+                    <div class="button2"><a href="petrowork.html"><b>More</b></a></div>
+                </div>
             </div>
         </div>
         <div class="dialog" id="gulfview">
             <div class="dialogbox">
-              <div class="title">
-                <p><b>GULF Engineering Services Ltd.</b></p>
-                <span class="closebtn" id="closemodal" onclick="clgulf()">
-                    <p><b>&times;</b></p></span>
-              </div>
-              <div class="dialogbody2">
-                <div class="tile1 minortext">
-                    <div class="highlight1">
-                        <b><p>GULF Engineering Services Ltd.</p></b>
-                    <p>Mechanical Engineer Intern</p></div>
-                    <P><b>From</b>	June 1, 2009</P>
-                    <P><b>To</b>	July 31, 2009</P>
-                    <br>
+                <div class="title">
+                    <p><b>GULF Engineering Services Ltd.</b></p>
+                    <span class="closebtn" id="closemodal" onclick="clgulf()">
+                        <p><b>&times;</b></p>
+                    </span>
                 </div>
-                <div class="tile2 minortext">
-                    <p><b>Description</b></p>
-                    <p><ul>
-                    <li>Worked within the QA/QC Department.</li>
-                    <li>Assisted with the inspection of incoming and 
-                    outgoing tools and machined products.</li>
-                    <li>Used AutoCAD software to complete 
-                    machine drawings for shop jobs. </li>
-                </ul></p>
+                <div class="dialogbody2">
+                    <div class="tile1 minortext">
+                        <div class="highlight1">
+                            <b>
+                                <p>GULF Engineering Services Ltd.</p>
+                            </b>
+                            <p>Mechanical Engineer Intern</p>
+                        </div>
+                        <P><b>From</b> June 1, 2009</P>
+                        <P><b>To</b> July 31, 2009</P>
+                        <br>
+                    </div>
+                    <div class="tile2 minortext">
+                        <p><b>Description</b></p>
+                        <p>
+                        <ul>
+                            <li>Worked within the QA/QC Department.</li>
+                            <li>Assisted with the inspection of incoming and
+                                outgoing tools and machined products.</li>
+                            <li>Used AutoCAD software to complete
+                                machine drawings for shop jobs. </li>
+                        </ul>
+                        </p>
+                    </div>
                 </div>
-              </div>
-              <div class="dialogfoot">
-                <div class="button2"><a href="index.html"><b>More</b></a></div>
-              </div>
+                <div class="dialogfoot">
+                    <div class="button2"><a href="index.html"><b>More</b></a></div>
+                </div>
             </div>
         </div>
         <!--Online-->
         <div class="dialog" id="blogview">
             <div class="dialogbox">
-              <div class="title">
-                <p><b>Simple Engineering Blog</b></p>
-                <span class="closebtn" id="closemodal" onclick="clsimeng()">
-                    <p><b>&times;</b></p></span>
-              </div>
-              <div class="dialogbody2">
+                <div class="title">
+                    <p><b>Simple Engineering Blog</b></p>
+                    <span class="closebtn" id="closemodal" onclick="clsimeng()">
+                        <p><b>&times;</b></p>
+                    </span>
+                </div>
+                <div class="dialogbody2">
                     <div class="tile1 text">
                         <p>The blog served as a simple way of documenting and
-                        recording some of the technical operations, activities 
-                        and tools that I encountered.   
+                            recording some of the technical operations, activities
+                            and tools that I encountered.
                         </p>
                         <p>It also serves as a small way I can keep my engineering
-                        knowledge base sharp and serves as means to display what I 
-                        have observed and am familiar with.    
+                            knowledge base sharp and serves as means to display what I
+                            have observed and am familiar with.
                         </p>
                     </div>
                     <div class="tile2 text">
                         <embed src="https://simpleengineeringarticles.wordpress.com/">
                     </div>
-              </div>
-              <div class="dialogfoot">
-                <div class="button2"><a href="index.html"><b>More</b></a></div>
-              </div>
+                </div>
+                <div class="dialogfoot">
+                    <div class="button2"><a href="index.html"><b>More</b></a></div>
+                </div>
             </div>
         </div>
         <div class="dialog" id="cadview">
             <div class="dialogbox">
-              <div class="title">
-                <p><b>GrabCAD</b></p>
-                <span class="closebtn" id="closemodal" onclick="clgcad()">
-                    <p><b>&times;</b></p></span>
-              </div>
-              <div class="dialogbody2">
+                <div class="title">
+                    <p><b>GrabCAD</b></p>
+                    <span class="closebtn" id="closemodal" onclick="clgcad()">
+                        <p><b>&times;</b></p>
+                    </span>
+                </div>
+                <div class="dialogbody2">
                     <div class="tile1 text">
                         <p>GrabCAD offers me a portal to display my solidworks skils
-                        and abilites in the field of draughting and design.     
+                            and abilites in the field of draughting and design.
                         </p>
                     </div>
                     <img class="gcadimg" src="Images/Compact 3.JPG">
-              </div>
-              <div class="dialogfoot">
-                <div class="button2"><a href="grabcad1.html"><b>More</b></a></div>
-              </div>
+                </div>
+                <div class="dialogfoot">
+                    <div class="button2"><a href="grabcad1.html"><b>More</b></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="dialog" id="hubview">
+            <div class="dialogbox">
+                <div class="title">
+                    <p><b>GrabCAD</b></p>
+                    <span class="closebtn" id="closemodal" onclick="clhub()">
+                        <p><b>&times;</b></p>
+                    </span>
+                </div>
+                <div class="dialogbody2">
+                    <div class="tile1 text">
+                        <p>GitHub offers me the ability to store and display the coding projects that I've done as a
+                            means of teaching myself
+                            to code.
+                        </p>
+                    </div>
+                    <img class="gcadimg" src="Images/gitHub.png">
+                </div>
+                <div class="dialogfoot">
+                    <div class="button2"><a href="https://github.com/VyanPersad/vpcareer.github.io.git"><b>More</b></a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-<script type="text/javascript" src="landingpage.js"></script>
-</body> 
-    <div class="contact">
-        <div class="cat"><b>E-mail</b>
-            <div class="mtext">
-                <div ><a href="mailto:vyanpersad@gmail.com">
-                <img class="socm" src="Icons/Slide6.PNG"></a></div>
-        </div>
-        </div>
-        <div class="cat"><b>Phone</b>
-            <div class="mtext">
-                <div><a href="tel:1-868-716-5899">
-                <img class="socm" src="Icons/Slide26.PNG"></a></div>	              
-            </div></div>
-        <div class="cat"><b>linkedin</b>
-            <div class="mtext">
-                <div><a href="https://www.linkedin.com/in/vyan-persad/">
-                    <img class="socm" src="Icons/Slide5.PNG"></a></div>	              
-            </div></div>
-        <div class="cat"><b>Location</b>
-            <div class="mtext">
-                <div><a href="https://goo.gl/maps/DTJStSKwJncrkEVe8">
-                    <img class="socm" src="Icons/Slide28.PNG"></a></div>	              
-            </div>
+    <script type="text/javascript" src="landingpage.js"></script>
+</body>
+<div class="contact">
+    <div class="cat"><b>E-mail</b>
+        <div class="mtext">
+            <div><a href="mailto:vyanpersad@gmail.com">
+                    <img class="socm" src="Icons/Slide6.PNG"></a></div>
         </div>
     </div>
+    <div class="cat"><b>Phone</b>
+        <div class="mtext">
+            <div><a href="tel:1-868-716-5899">
+                    <img class="socm" src="Icons/Slide26.PNG"></a></div>
+        </div>
+    </div>
+    <div class="cat"><b>linkedin</b>
+        <div class="mtext">
+            <div><a href="https://www.linkedin.com/in/vyan-persad/">
+                    <img class="socm" src="Icons/Slide5.PNG"></a></div>
+        </div>
+    </div>
+    <div class="cat"><b>Location</b>
+        <div class="mtext">
+            <div><a href="https://goo.gl/maps/DTJStSKwJncrkEVe8">
+                    <img class="socm" src="Icons/Slide28.PNG"></a></div>
+        </div>
+    </div>
+</div>
 <footer class="footer">
-        <div class="add">
-        <p class="highlight"><b>Address</b></p>	
+    <div class="add">
+        <p class="highlight"><b>Address</b></p>
         <p>23 Ramlogan Ave.,</p>
-        <p>Fyzabad</p></div>
-        <div class="indus">
-        <p class="highlight"><b>Industry</b></p>	
+        <p>Fyzabad</p>
+    </div>
+    <div class="indus">
+        <p class="highlight"><b>Industry</b></p>
         <p>Mechincal Engineering</p>
         <p>Petroleum Engineering</p>
         <p>Drilling and Workover</p>
-        </div>
-        <div class="inter">
-        <p class="highlight"><b>Interests</b></p>	
+    </div>
+    <div class="inter">
+        <p class="highlight"><b>Interests</b></p>
         <p>Coding</p>
         <p>Blogging</p>
         <p>Reading</p>
-        </div>
-        <div class="con">
+    </div>
+    <div class="con">
         <p class="highlight"><b>CONTACT</b></p>
         <p><a class="highlight" href="tel:1-868-716-5899">Phone</a></p>
-        <p><a class="highlight" href="mailto:vyanpersad@gmail.com">Email</a></p>  
-        </div>
-    </footer>
-    
+        <p><a class="highlight" href="mailto:vyanpersad@gmail.com">Email</a></p>
+    </div>
+</footer>
+
 </html>
