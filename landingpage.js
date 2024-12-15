@@ -2,6 +2,7 @@
 function openacca() { accaview.style.visibility = "visible"; }
 function openpet() { petview.style.visibility = "visible"; }
 function openmech() { mechview.style.visibility = "visible"; }
+function openIT() { ITview.style.visibility = "visible"; }
 
 function openpad() { padview.style.visibility = "visible"; }
 function openpapp() { appview.style.visibility = "visible"; }
@@ -18,6 +19,7 @@ function ghub() { hubview.style.visibility = "visible"; }
 function closeacca() { accaview.style.visibility = "hidden"; }
 function closepet() { petview.style.visibility = "hidden"; }
 function closemech() { mechview.style.visibility = "hidden"; }
+function closeIT() { ITview.style.visibility = "hidden"; }
 
 function closepad() { padview.style.visibility = "hidden"; }
 function closepapp() { appview.style.visibility = "hidden"; }
@@ -47,6 +49,9 @@ function outsideClick(e) {
   }
   if (e.target == mechview) {
     mechview.style.visibility = "hidden";
+  }
+  if (e.target == mechview) {
+    ITview.style.visibility = "hidden";
   }
   if (e.target == padview) {
     padview.style.visibility = "hidden";
